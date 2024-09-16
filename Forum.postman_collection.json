@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "83fd21ac-3aef-4122-b7f3-b5f49e440b28",
+		"name": "Forum",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38224085"
+	},
+	"item": [
+		{
+			"name": "forum",
+			"item": [
+				{
+					"name": "forum list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/forum/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"forum",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "forum",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/forum/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"forum",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "forum detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/forum/1/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"forum",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "sujet",
+			"item": [
+				{
+					"name": "sujet list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/sujet/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"sujet",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sujet",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/sujet/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"sujet",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sujet detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/sujet/1/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"sujet",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "message",
+			"item": [
+				{
+					"name": "message",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/message/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"message",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "message",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/message/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"message",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
